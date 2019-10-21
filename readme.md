@@ -61,3 +61,13 @@ Get as far as you can with these exercises before the due date.
 - push to github and send a pull request.
 - Add a comfort score between 1-5 on how confident you feel about understanding promises.
 - Write 2-3 sentences on either a breakthrough you had while building out promises or a problem that you couldn't debug and would like additional support on.
+
+_____
+
+* Promise - JavaScript | MDN
+* Promises
+* Common Promise Mistakes
+* Promisees · Courtesy of ponyfoo.com
+* wbinnssmith/awesome-promises: A curated list of useful resources for JavaScript Promises
+* How to escape Promise Hell — Medium
+
