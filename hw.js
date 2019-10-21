@@ -8,7 +8,7 @@ const db = require('./order')
 
 //CODE FOR QUESTION 1 HERE
 
-console.log(db.readMenu())
+
 
 
 
@@ -51,7 +51,7 @@ db.order("quesadilla")
   // 5. Validate that the new item has been added to the menu by calling `readMenu` again.
   // We only want to call `readMenu` after we get a response that is successful.
   // Remember that we can chain promises together the same way that we can chain jQuery methods.
-  // db.addToMenu(newBurger)
+  
 
 
   // REFACTOR QUESTION 4 TO ACCOUNT FOR THIS REQUIREMENT
@@ -84,3 +84,11 @@ db.order("quesadilla")
 
   // CODE FOR QUESTION 6 HERE
 
+  customers.forEach( function(item){
+
+    console.log(db.order(item.order));
+    
+    
+
+
+  })
