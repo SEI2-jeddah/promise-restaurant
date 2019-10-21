@@ -64,10 +64,12 @@ Get as far as you can with these exercises before the due date.
 
 _____
 
-* Promise - JavaScript | MDN
-* Promises
-* Common Promise Mistakes
-* Promisees · Courtesy of ponyfoo.com
-* wbinnssmith/awesome-promises: A curated list of useful resources for JavaScript Promises
-* How to escape Promise Hell — Medium
+####Read more about promises here 
+
+* [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [Promises](https://www.promisejs.org/)
+* [Common Promise Mistakes](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
+* [Promisees · Courtesy of ponyfoo.com](http://bevacqua.github.io/promisees/)
+* [wbinnssmith/awesome-promises: A curated list of useful resources for JavaScript Promises](https://github.com/wbinnssmith/awesome-promises)
+* [How to escape Promise Hell — Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513#.4wtj9hlvw)
 
