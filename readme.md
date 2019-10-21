@@ -67,6 +67,7 @@ _____
 #### Read more about promises here 
 
 * [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [Async functions](https://developers.google.com/web/fundamentals/primers/async-functions)
 * [Promises](https://www.promisejs.org/)
 * [Common Promise Mistakes](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 * [Promisees · Courtesy of ponyfoo.com](http://bevacqua.github.io/promisees/)
