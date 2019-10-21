@@ -11,6 +11,7 @@ const db = require('./order')
 
 
 
+
 // Order Some Food
 /* *************************************************************** */
 // 2. For this task, you will use the method .order to order the cheapest burger on the menu.
@@ -19,6 +20,8 @@ const db = require('./order')
 
 // CODE FOR QUESTION 2 HERE
 
+db.order('REBEL OUTLAW')
+
 
 
 // 3. Try and use the same method to order a `quesadilla`.
@@ -26,6 +29,7 @@ const db = require('./order')
 //  Make sure that your Promise can be dealt with when it is rejected.
 
 // CODE FOR QUESTION 3 HERE
+db.order("quesadilla")
 
 
 
@@ -41,13 +45,17 @@ const db = require('./order')
 
 
   // CODE FOR QUESTION 4 HERE
+  db.addToMenu({name:"TWEEEKA BURGER" ,price:22.23 , description:"The new great great burger"});
+
 
   // 5. Validate that the new item has been added to the menu by calling `readMenu` again.
   // We only want to call `readMenu` after we get a response that is successful.
   // Remember that we can chain promises together the same way that we can chain jQuery methods.
-  // db.addToMenu(newBurger)
+  
+
 
   // REFACTOR QUESTION 4 TO ACCOUNT FOR THIS REQUIREMENT
+  console.log(db.readMenu())
 
   // Stretch Goals
   /* *************************************************************** */
@@ -76,3 +84,11 @@ const db = require('./order')
 
   // CODE FOR QUESTION 6 HERE
 
+  customers.forEach( function(item){
+
+    console.log(db.order(item.order));
+    
+    
+
+
+  })

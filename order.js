@@ -114,6 +114,9 @@ const menu = [
         const item = menu.find(item => item.name === name.toUpperCase());
         if (item) {
           resolve(item);
+          console.log("Man that burger sure was tasty!");
+          
+          
         } else {
           reject("I'm sorry, we don't have any " + name);
         }
